@@ -31,5 +31,12 @@ namespace DHCryptoCore
         {
 
         }
+
+        private void RSA_Click(object sender, RoutedEventArgs e)
+        {
+            Window rsa = new RSASignature();
+            rsa.Show();
+            
+        }
     }
 }

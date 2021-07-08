@@ -83,7 +83,7 @@
                 materialDesign:ButtonAssist.CornerRadius="10"
                 Height="200" Width="300"
                 BorderBrush="#673AB7"
-                FontSize="50"/>
+                FontSize="50" Click="RSA_Click"/>
 
         <Button Name="DH" Style="{DynamicResource MaterialDesignRaisedButton}"
                 materialDesign:ShadowAssist.ShadowDepth="Depth3"
